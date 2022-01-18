@@ -6,12 +6,12 @@
     <message>
         <location filename="AboutDialog.ui" line="17"/>
         <source>About GLideN64</source>
-        <translation>A Propos De GLideN64</translation>
+        <translation>À propos De GLideN64</translation>
     </message>
     <message>
         <location filename="AboutDialog.ui" line="80"/>
         <source>About</source>
-        <translation>A Propos De</translation>
+        <translation>À propos De GLideN64</translation>
     </message>
     <message>
         <location filename="AboutDialog.ui" line="102"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="AboutDialog.ui" line="470"/>
         <source>Author of the original glN64 graphics plugin</source>
-        <translation>Auteur du plugin graphique original glN64</translation>
+        <translation>Auteur du plugin graphique glN64 d&apos;origine</translation>
     </message>
     <message>
         <location filename="AboutDialog.ui" line="494"/>
@@ -96,17 +96,17 @@
     <message>
         <location filename="configDialog.ui" line="78"/>
         <source>Full screen resolution:</source>
-        <translation>Résolution Plein Ecran :</translation>
+        <translation>Résolution en plein écran :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="129"/>
         <source>Windowed resolution:</source>
-        <translation>Résolution en Mode Fenêtré :</translation>
+        <translation>Résolution en fenêtré :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="90"/>
         <source>Refresh rate:</source>
-        <translation>Taux de rafraîchissement :</translation>
+        <translation>Taux de rafraichissement :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="190"/>
@@ -121,73 +121,73 @@
     <message>
         <location filename="configDialog.ui" line="108"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This option selects the resolution for windowed mode. You can also type in a custom window size.&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;640 x 480, 800 x 600, 1024 x 768, 1280 x 960&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cette option gère la résolution en mode fenêtré. Vous pouvez également saisir une résolution personnalisée.&lt;/p&gt;&lt;p&gt;[Recommandées: &lt;span style=&quot; font-style:italic;&quot;&gt;640 x 480, 800 x 600, 1024 x 768, 1280 x 960&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="216"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Threaded video can improve performance with poor OpenGL drivers at the cost of very marginal input lag, usually less than half a frame.&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;Usually off, unless there are performance issues&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ce mode améliore les performances des petits moteurs OpenGL au prix d&apos;une légère latence marginale au niveau des contrôles, normalement de moins de la moité d&apos;une frame.&lt;/p&gt;&lt;p&gt;[Recommandé: &lt;span style=&quot; font-style:italic;&quot;&gt;Normanelemnt desactivé, sauf en cas de problèmes de performances&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="219"/>
         <source>Enable threaded video</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer vidéo threadée</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="232"/>
         <source>When enabled, the image is cropped by values specified in N64 pixels. Useful to remove black borders in some games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si activé, l&apos;image est ajustée selon des valeurs spécifées en pixels N64. Utile pour retirer les bordures noires dans certains jeux.</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="253"/>
         <location filename="ConfigDialog.cpp" line="767"/>
         <source>Overscan</source>
-        <translation type="unfinished"></translation>
+        <translation>Overscan</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="267"/>
         <source>NTSC</source>
-        <translation type="unfinished"></translation>
+        <translation>Overscan</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="320"/>
         <source>PAL</source>
-        <translation type="unfinished"></translation>
+        <translation>PAL</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="388"/>
         <source>Anti-aliasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Anticrénelage</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="397"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;GLideN64 offers two methods to smooth jagged polygons:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Fast approximate anti-aliasing (FXAA)&lt;/span&gt;: FXAA is a post-processing filter that can provide a decent result, but as good as MSAA. The main reason to use FXAA is to use with &lt;span style=&quot; font-weight:600;&quot;&gt;N64-style depth compare&lt;/span&gt;. FXAA adds some blurriness to the output image, causing some textures like text to possibly look worse.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Multisample anti-aliasing (MSAA)&lt;/span&gt;: MSAA is a standard anti-aliasing technique used in computer graphics to improve image quality. Most modern GPUs support 2, 4, 8, and 16 samples. More samples mean better quality, but are slower. There are two downsides: it&apos;s incompatible with &lt;span style=&quot; font-weight:600;&quot;&gt;N64-style depth compare&lt;/span&gt; and may cause minor glitches in some games.&lt;/p&gt;&lt;p&gt;Recommendation: [&lt;span style=&quot; font-style:italic;&quot;&gt;Usually 16x MSAA, or FXAA with N64-style depth compare&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;GLideN64 offre deux moyens de lisser les polygones :&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Anticrénelage rapide approximatif (FXAA)&lt;/span&gt;: FXAA est un filtre post-traitement qui fournit des résultats décents, mais aussi bons que le MSAA. La principale raison de préférer le FXAA est de l&apos;utiliser avec &lt;span style=&quot; font-weight:600;&quot;&gt;N64-style depth compare&lt;/span&gt;. FXAA ajout du flou en sortie, pouvant avoir pour effet que certaines textures, comme le texte, aient l&apos;air pire.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Anticrénelage multi-échantillonnage (MSAA)&lt;/span&gt;: Le MSAA est une méthode d&apos;anticrénelage standard utilisée en informatique pour améliorer la qualité de l&apos;image. La plupart des GPUs actuels supportent 2, 4, 8, et 16 échantillons. Plus d&apos;échantillons signifie plus de qualité, mais aussi plus de ralentissements potentiels. Il y a deux inconvénients : incompatible &lt;span style=&quot; font-weight:600;&quot;&gt;N64-style depth compare&lt;/span&gt; et peut cause des glitchs mineurs dans certains jeux.&lt;/p&gt;&lt;p&gt;Recommandations : [&lt;span style=&quot; font-style:italic;&quot;&gt;Soit en 16x MSAA, ou en FXAA avec N64-style depth compare&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="418"/>
         <source>No anti-aliasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Sans anticrénelage</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="425"/>
         <source>Fast approximate anti-aliasing (FXAA)</source>
-        <translation type="unfinished"></translation>
+        <translation>Anticrénelage rapide approximatif (FXAA)</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="432"/>
         <source>Multisample anti-aliasing (MSAA):</source>
-        <translation type="unfinished"></translation>
+        <translation>Anticrénelage multi-échantillonnage (MSAA) :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="616"/>
         <source>Multisample anti-aliasing is not compatible with &lt;a href=&quot;#n64DepthCompare&quot;&gt;N64-style depth compare&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;anticrénelage multi-échantillonnage (MSAA) n&apos;est pas compatible avec &lt;a href=&quot;#n64DepthCompare&quot;&gt;N64-style depth compare&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="638"/>
         <source>Filtering</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrage</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="662"/>
@@ -197,7 +197,7 @@
     <message>
         <location filename="configDialog.ui" line="927"/>
         <source>PNG</source>
-        <translation type="unfinished"></translation>
+        <translation>PNG</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="977"/>
@@ -208,7 +208,7 @@
         <location filename="configDialog.ui" line="1043"/>
         <location filename="configDialog.ui" line="1743"/>
         <source>Some of the options on this tab have been disabled because &lt;a href=&quot;#frameBuffer&quot;&gt;frame buffer emulation&lt;/a&gt; has been turned off.</source>
-        <translation type="unfinished"></translation>
+        <translation>Certaines options de cet onglet ont été desactivées car &lt;a href=&quot;#frameBuffer&quot;&gt;l&apos;émulation du frame buffer&lt;/a&gt; a été desactivée.</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1066"/>
@@ -218,17 +218,17 @@
     <message>
         <location filename="configDialog.ui" line="1086"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, all non-default values of settings are stored individually for each game.&lt;/p&gt;&lt;p&gt;When a game is running, settings are displayed and saved for the currently running game.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; GLideN64 already contains settings for the optimal performance of most games. Be careful when altering options on &apos;Emulation&apos; and &apos;Frame buffer&apos; tab.&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;Checked&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quand activé, toutes les valeurs autres que celles par défaut sont conservées individuellement pour chaque jeu.&lt;/p&gt;&lt;p&gt;Quand un jeu est en cours d&apos;exécution, les paramètres sont affichés et enregistrés pour ce même jeu.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; GLideN64 cointient déjà les paramètres optimaux de performances pour la plupart des jeux. Attention quand vous motifiez des options dans les onglets &apos;Émulation&apos; et &apos;Frame buffer&apos;.&lt;/p&gt;&lt;p&gt;[Recommendé: &lt;span style=&quot; font-style:italic;&quot;&gt;Activé&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1089"/>
         <source>Use per-game settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser les paramètres jeu-par-jeu</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1170"/>
         <source>Internal resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Résolution interne</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1218"/>
@@ -238,62 +238,62 @@
     <message>
         <location filename="configDialog.ui" line="1252"/>
         <source>Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Gamma</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1263"/>
         <source>Custom gamma correction level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Niveau de correction gamma personnalisé :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1355"/>
         <source>Selecting this option overrides gamma correction specified by the game.</source>
-        <translation type="unfinished"></translation>
+        <translation>Choisir cette option effacera la correction gamma spécifiée par le jeu</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1386"/>
         <source>Dithering</source>
-        <translation type="unfinished"></translation>
+        <translation>Tramage</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1392"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Like real hardware this setting reduces the number of colors if dithering is used. Removes undesired dithering fragments. Default = enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Comme sur une vraie console, ce paramètre réduit le nombre de couleurs si une trame est utilisée. Retire fragemetns de trames non-désirés. Par défaut = Activé.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1395"/>
         <source>Enable 5bit quantization</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer la quantification 5bit</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1402"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting doubles noise resolution to get a finer noise effect at higher resolutions. Default = disabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ce paramètre double la résolution du bruit afin d&apos;obtenir un bruit plus fin sur les résolutions élevées. Par défaut = Désactivé.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1405"/>
         <source>High resolution noise dithering</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruit de tramage haute-résolution</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1412"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting enables game controlled ordered grid dithering. Enable it for accurate representation. Default = disabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ce paramètre active le tramage de grille ordonné contrôlé par le jeu. Activez-le pour une représentation fidèle. Par défaut = Désactivé.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1415"/>
         <source>Dithering pattern on output image</source>
-        <translation type="unfinished"></translation>
+        <translation>Motif de tramage en image de sortie</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1424"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RDRAM dithering prevents color banding in games with framebuffer effects.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Le tramage RDRAM empêche les bandes de couleurs dans les jeux avec des effets de framebuffer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1427"/>
         <source>RDRAM image dithering:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tramage d'image RDRAM</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1434"/>
