@@ -6,12 +6,12 @@
     <message>
         <location filename="AboutDialog.ui" line="17"/>
         <source>About GLideN64</source>
-        <translation>A Propos De GLideN64</translation>
+        <translation>À Propos de GLideN64</translation>
     </message>
     <message>
         <location filename="AboutDialog.ui" line="80"/>
         <source>About</source>
-        <translation>A Propos De</translation>
+        <translation>À Propos De</translation>
     </message>
     <message>
         <location filename="AboutDialog.ui" line="102"/>
@@ -96,7 +96,7 @@
     <message>
         <location filename="configDialog.ui" line="78"/>
         <source>Full screen resolution:</source>
-        <translation>Résolution Plein Ecran :</translation>
+        <translation>Résolution Plein Écran :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="129"/>
@@ -106,7 +106,7 @@
     <message>
         <location filename="configDialog.ui" line="90"/>
         <source>Refresh rate:</source>
-        <translation>Taux de rafraîchissement :</translation>
+        <translation>Rafraichissement :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="190"/>
@@ -121,43 +121,43 @@
     <message>
         <location filename="configDialog.ui" line="108"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This option selects the resolution for windowed mode. You can also type in a custom window size.&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;640 x 480, 800 x 600, 1024 x 768, 1280 x 960&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cette option définit la résolution en Monde Fenêtré. Vous pouvez également saisir une résolution personnalisée.&lt;/p&gt;&lt;p&gt;[Recommendées: &lt;span style=&quot; font-style:italic;&quot;&gt;640 x 480, 800 x 600, 1024 x 768, 1280 x 960&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="216"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Threaded video can improve performance with poor OpenGL drivers at the cost of very marginal input lag, usually less than half a frame.&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;Usually off, unless there are performance issues&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;L'option Threaded video peut améliorer les performences des pilotes OpenGL de faible qualité au prix d'un très léger délai avec notre manette ou autres périphériques d'entées d'un peu moins d'une demi-image.&lt;/p&gt;&lt;p&gt;[Recommendé: &lt;span style=&quot; font-style:italic;&quot;&gt;Noramlement desactivé, à moins d'avoir des problèmes de performance.&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="219"/>
         <source>Enable threaded video</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer threaded video</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="232"/>
         <source>When enabled, the image is cropped by values specified in N64 pixels. Useful to remove black borders in some games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si activé, l'image est coupée d'après les valeurs renseignées dans les pixels N64. Peut être utile pour supprimer les bords noirs de certains jeux.</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="253"/>
         <location filename="ConfigDialog.cpp" line="767"/>
         <source>Overscan</source>
-        <translation type="unfinished"></translation>
+        <translation>Overscan</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="267"/>
         <source>NTSC</source>
-        <translation type="unfinished"></translation>
+        <translation>NTSC</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="320"/>
         <source>PAL</source>
-        <translation type="unfinished"></translation>
+        <translation>PAL</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="388"/>
         <source>Anti-aliasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Anti-aliasing</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="397"/>
@@ -167,17 +167,17 @@
     <message>
         <location filename="configDialog.ui" line="418"/>
         <source>No anti-aliasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivé</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="425"/>
         <source>Fast approximate anti-aliasing (FXAA)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fast approximate anti-aliasing (FXAA)</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="432"/>
         <source>Multisample anti-aliasing (MSAA):</source>
-        <translation type="unfinished"></translation>
+        <translation>Multisample anti-aliasing (MSAA) :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="616"/>
@@ -187,7 +187,7 @@
     <message>
         <location filename="configDialog.ui" line="638"/>
         <source>Filtering</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrage</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="662"/>
@@ -197,7 +197,7 @@
     <message>
         <location filename="configDialog.ui" line="927"/>
         <source>PNG</source>
-        <translation type="unfinished"></translation>
+        <translation>PNG</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="977"/>
@@ -208,7 +208,7 @@
         <location filename="configDialog.ui" line="1043"/>
         <location filename="configDialog.ui" line="1743"/>
         <source>Some of the options on this tab have been disabled because &lt;a href=&quot;#frameBuffer&quot;&gt;frame buffer emulation&lt;/a&gt; has been turned off.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Certaines options de cet onglet sont desactivées car le &lt;a href=&quot;#frameBuffer&quot;&gt;frame buffer emulation&lt;/a&gt; est étient.</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1066"/>
@@ -228,22 +228,22 @@
     <message>
         <location filename="configDialog.ui" line="1170"/>
         <source>Internal resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Résolution interne</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1218"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1252"/>
         <source>Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Gamma/translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1263"/>
         <source>Custom gamma correction level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Correction gamme personnalisée :</translation>
     </message>
     <message>
         <location filename="configDialog.ui" line="1355"/>
@@ -1141,57 +1141,57 @@ No texture enhancement</extracomment>
     <message>
         <location filename="ConfigDialog.cpp" line="331"/>
         <source>Save and Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrer et Fermer</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="332"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrer</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="333"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermer</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="334"/>
         <location filename="ConfigDialog.cpp" line="688"/>
         <location filename="ConfigDialog.cpp" line="693"/>
         <source>Restore Defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="393"/>
         <location filename="ConfigDialog.cpp" line="906"/>
         <location filename="ConfigDialog.cpp" line="914"/>
         <source>New...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau...</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="567"/>
         <source>The texture pack folder is missing. Please change the folder or turn off texture packs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le dossier du pack de textures est manquant. Changez de dossier ou desactivez les packs de texutres.</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="582"/>
         <source>The texture pack cache folder is missing. Please change the folder or turn off texture packs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le dossier cache du pack de textures est manquant. Changez de dossier ou desactivez les packs de texutres.</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="597"/>
         <source>The texture dump folder is missing. Please change the folder or turn off dumping texture packs.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Le dossier d'extraction de textures est manquant. Changez de dossier ou arrêtez l'extraction de textures.</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="689"/>
         <source>Are you sure you want to reset all settings to default?</source>
-        <translation type="unfinished"></translation>
+        <translation>Êtes-vous sûr·e de vouloir restaurer les paramètres par défaut ?</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="694"/>
         <location filename="ConfigDialog.cpp" line="973"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="910"/>
@@ -1199,42 +1199,42 @@ No texture enhancement</extracomment>
         <location filename="ConfigDialog.cpp" line="921"/>
         <location filename="ConfigDialog.cpp" line="927"/>
         <source>New Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau Profil</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="910"/>
         <source>New profile name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom du nouveau profil :</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="916"/>
         <source>New settings profiles cannot be called &quot;New...&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Un profil ne peut pas être nommé &quot;Nouveau...&quot;.</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="922"/>
         <source>Please type a name for your new settings profile.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez entrer un nom pour notre nouveau profil</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="928"/>
         <source>This settings profile already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il y a déjà un profil à ce nom</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="967"/>
         <source>Are you sure you want to remove the settings profile &quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Êtes-vous sûr·e de vouloir suppriemr le profil &quot;</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="968"/>
         <source>&quot;?</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;?</translation>
     </message>
     <message>
         <location filename="ConfigDialog.cpp" line="969"/>
         <source>Remove Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer profil</translation>
     </message>
 </context>
 <context>
@@ -1243,7 +1243,7 @@ No texture enhancement</extracomment>
         <location filename="FullscreenResolutions_windows.cpp" line="82"/>
         <source> Hz</source>
         <extracomment>Abbreviation for Hertz; include a leading space if appropriate</extracomment>
-        <translation type="unfinished"></translation>
+        <translation> Hz</translation>
     </message>
 </context>
 </TS>
